@@ -13,6 +13,13 @@
 	<meta name="twitter:image" content="https://tender-boyd-3a0e69.netlify.app/images/pic01.png" />
 	<meta name="twitter:url" content="https://tender-boyd-3a0e69.netlify.app/">
 	<meta name="twitter:card" content="summary_large_image">
+			<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+			<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		
     <title>NLM21</title>
 
     <link rel="canonical" href="https://tender-boyd-3a0e69.netlify.app/">
@@ -45,9 +52,9 @@
   <body>
     
 <header class="site-header sticky-top py-1">
-  <nav class="container d-flex flex-column flex-md-row justify-content-between">
-    <a class="py-2" href="#" aria-label="Product">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+  <nav id="nav" class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2" href="#" aria-label="NLM21">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>NLM21</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
     </a>
     <a class="py-2 d-none d-md-inline-block" href="#home">Home</a>
     <a class="py-2 d-none d-md-inline-block" href="#program">Program</a>
@@ -62,40 +69,58 @@
       		<h1 class="display-4 fw-normal">NLM21</h1>
       		<p class="h2">Nonlinear Meeting on Zoom</br>March 22-23, 2021</p>
       		<p class="lead fw-normal">The NLM21 is the 6th of a series of annual workshops focusing on nonlinear analysis and differential problems. This edition's common thread will cover theoretical topics on reaction-diffusion equations and dynamical systems with possible applications to biology or physics.</p>
-      <div class="container">
+      <div class="container"><p class="h2"> Invited speakers </p>
   		<div class="row">
-   		 <div class="col-sm-1"></div>
-    	 <div class="col-sm lead fw-normal"><p><b>Henri Berestycki</b></br>(EHESS Paris)</p><p><b>Elaine Crooks</b></br>(Swansea University)</p><p><b>Frank Hilker</b></br>(University of Osnabrück)</p></div>
-    	 <div class="col-sm lead fw-normal"><p><b>Christian Kuehn</b></br>(Technical University of Munich)</p><p><b>Pedro Torres</b></br>(University of Granada)</p><p><b>Peter Polacik</b></br>(University of Minnesota)</p></div>
-   	     <div class="col-sm-1"></div>
+   		 <div class="col-md-1 col-sm-1"></div>
+    	 <div class="col-md-5 col-sm lead fw-normal"><p><b>Henri Berestycki</b></br>(EHESS-CAMS Paris)</p><p><b>Elaine Crooks</b></br>(Swansea University)</p><p><b>Frank Hilker</b></br>(University of Osnabrück)</p></div>
+    	 <div class="col-md-5 col-sm lead fw-normal"><p><b>Christian Kuehn</b></br>(Technical University of Munich)</p><p><b>Pedro Torres</b></br>(University of Granada)</p><p><b>Peter Polacik</b></br>(University of Minnesota)</p></div>
+   	     <div class="col-md-1 col-sm-1"></div>
   		</div>
 	  </div>
       </div>
-      		<a class="btn btn-outline-secondary" href="#">Poster</a>
+      		<a class="btn btn-outline-secondary" href="images/posterNLM21.pdf" download="posterNLM21.pdf" target="_blank">Poster</a>
  	</div>
  <!--   <div class="product-device shadow-sm d-none d-md-block"></div>
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
 
 
   <div id="program" class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify text-white overflow-hidden">
       <div class="my-0 py-0">
         <h2 class="display-9">Schedule - March 22, 2021</h2>
         <table class="table table-sm table-dark table-borderless">
           <tbody>
           <tr>
-            <th scope="row">15:30-16:30 (CEST)</th>
-            <td>H. Berestycki "Reaction-diffusion equation"</br>Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et scelerisque lorem. Duis rutrum felis consectetu</td>
+            <th scope="row">15:30-16:30</br>CET (UTC+1)</th>
+            <td>Henri Berestycki</br><i>"Reaction-diffusion equation"</i></br></td>
           </tr>
           <tr>
-            <th scope="row">16:30-17:30 (CEST)</th>
-            <td>H. Berestycki "Reaction-diffusion equation"</br>Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et scelerisque lorem. Duis rutrum felis consectetu</td>
+            <td colspan="2"><button type="button" class="btn btn-outline-light btn-sm" data-toggle="collapse" data-target="#abs1">Abstract</button>
+  				<div id="abs1" class="collapse">
+ 					<p style="font-size:small" class="text-left">We deal with the periodic boundary value problem associated with the parameter-dependent second-order nonlinear differential equation \[u''+cu' + \bigr{(} \lambda a^{+}(x) - \mu a^{-}(x) \bigr{)} g(u) = 0,\] where \(\lambda,\mu>0\) are parameters, \(c\in\mathbb{R},\) \(a(x)\) is a locally integrable $P$-periodic sign-changing weight function, and \(g\colon[0,1]\to\mathbb{R}\) is a continuous function such that \(g(0)=g(1)=0,\) \(g(u)>0\) for all \(u\in]0,1[,\) with superlinear growth at zero. A typical example for \(g(u),\) that is of interest in population genetics, is the logistic-type nonlinearity \(g(u)=u^{2}(1-u).\) 
+					Using a topological degree approach, we provide high multiplicity results by exploiting the nodal behaviour of \(a(x).\) 
+					More precisely, when $m$ is the number of intervals of positivity of \(a(x)\) in a \(P\)-periodicity interval, we prove the existence of \(3^{m}-1\) non-constant positive \(P\)-periodic solutions, 
+					whenever the parameters \(\lambda\) and \(\mu\) are positive and large enough.</p>
+  				</div></td>
+          </tr>
+          <tr>
+            <th scope="row">16:30-17:30 CET(UTC+1)</th>
+            <td>Elaine Crooks</br><i>"Reaction-diffusion equation"</i></br></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#abs2">Abstract</button>
+  				<div id="abs2" class="collapse">
+ 					 <p style="font-size:small;">We deal with the periodic boundary value problem associated with the parameter-dependent second-order nonlinear differential equation \[u''+cu' + \bigr{(} \lambda a^{+}(x) - \mu a^{-}(x) \bigr{)} g(u) = 0,\] where \(\lambda,\mu>0\) are parameters, \(c\in\mathbb{R},\) \(a(x)\) is a locally integrable $P$-periodic sign-changing weight function, and \(g\colon[0,1]\to\mathbb{R}\) is a continuous function such that \(g(0)=g(1)=0,\) \(g(u)>0\) for all \(u\in]0,1[,\) with superlinear growth at zero. A typical example for \(g(u),\) that is of interest in population genetics, is the logistic-type nonlinearity \(g(u)=u^{2}(1-u).\) 
+					Using a topological degree approach, we provide high multiplicity results by exploiting the nodal behaviour of \(a(x).\) 
+					More precisely, when $m$ is the number of intervals of positivity of \(a(x)\) in a \(P\)-periodicity interval, we prove the existence of \(3^{m}-1\) non-constant positive \(P\)-periodic solutions, 
+					whenever the parameters \(\lambda\) and \(\mu\) are positive and large enough.</p>
+  				</div></td>
           </tr>
           <tr class="table-secondary">
             <td colspan="2">Coffee break</td>
           </tr>
           <tr>
-            <th scope="row">17:40-18:40 (CEST)</th>
+            <th scope="row">17:40-18:40 CET(UTC+1)</th>
             <td>H. Berestycki "Reaction-diffusion equation"</br>Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et scelerisque lorem. Duis rutrum felis consectetu</td>
           </tr>          
           </tbody>
@@ -108,18 +133,18 @@
         <table class="table table-sm bg-table-warning table-borderless">
           <tbody>
           <tr>
-            <th scope="row">15:30-16:30 (CEST)</th>
+            <th scope="row">15:30-16:30 CET(UTC+1)</th>
             <td>H. Berestycki "Reaction-diffusion equation"</br>Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et scelerisque lorem. Duis rutrum felis consectetu</td>
           </tr>
           <tr>
-            <th scope="row">16:30-17:30 (CEST)</th>
+            <th scope="row">16:30-17:30 CET(UTC+1)</th>
             <td>H. Berestycki "Reaction-diffusion equation"</br>Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et scelerisque lorem. Duis rutrum felis consectetu</td>
           </tr>
           <tr class="table-secondary table-warning">
             <td colspan="2">Coffee break</td>
           </tr>
           <tr>
-            <th scope="row">17:40-18:40 (CEST)</th>
+            <th scope="row">17:40-18:40 CET(UTC+1)</th>
             <td>H. Berestycki "Reaction-diffusion equation"</br>Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et scelerisque lorem. Duis rutrum felis consectetu</td>
           </tr>          
           </tbody>
@@ -144,9 +169,48 @@
       <div class="my-0 p-0">
         <h2 class="display-9">Information</h2>
         <p>And an even wittier subheading.</p>
+        <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
       </div>
     </div>
   </div>
+      </div>
+    </div>
+  </div>
+  "Nonl"
 
 
 </main>
@@ -175,6 +239,14 @@
       </ul>
     </div>
   </div>
+  <ul class="icons">
+						<li><a style="border-bottom: none" href="https://orcid.org/0000-0003-4085-9103" target="_blank" > <i class="iconify" data-icon="fa-brands:orcid" data-inline="false" style="color: var(--icon-color3);" data-width="30" data-height="30"></i></a></li>
+						<li><a style="border-bottom: none" href="https://www.scopus.com/authid/detail.uri?authorId=56468013900" target="_blank" > <i class="iconify" data-icon="simple-icons:scopus" data-inline="false" style="color: var(--icon-color3);" data-width="30" data-height="30"></i></a></li>
+						<li><a style="border-bottom: none" href="https://publons.com/researcher/1596191/elisa-sovrano/" target="_blank" > <i class="iconify" data-icon="simple-icons:publons" data-inline="false" style="color: var(--icon-color3);" data-width="30" data-height="30"></i></a></li>
+						
+						<li><a style="border-bottom: none" href="https://deg1.uniud.it/index.html" target="_blank" > <img src="images/deg1-logo-ELISA-b.png" alt="" style="width:30px; height:30px; position: relative; top: 10.5px;" /></a></li>
+						
+					</ul>
         <small class="d-block mb-3 text-muted">&copy; Powered by Bootstrap</small>
 </footer>
 

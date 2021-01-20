@@ -1,187 +1,381 @@
-<!DOCTYPE HTML>
-<!--
-	Landscape by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
--->
-<html>
-	<head>
-		<title>NLM21</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-		<meta property="og:description" content="The NLM21 is the 6th of a series of annual workshops focusing on nonlinear analysis and differential problems. This edition's common thread will cover theoretical topics on reaction-diffusion equations and dynamical systems with possible applications to biology or physics."/>
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<meta property="og:title" content="Nonlinear meeting 2021" />
-		<meta property="og:image" content="https://dreamy-thompson-adb525.netlify.app/images/NLM21.png" />
-		<meta property="og:url" content="https://dreamy-thompson-adb525.netlify.app/">
-		<meta name="twitter:title" content="Nonlinear meeting 2021" />
-		<meta name="twitter:image" content="https://dreamy-thompson-adb525.netlify.app/images/NLM21.png" />
-		<meta name="twitter:url" content="https://dreamy-thompson-adb525.netlify.app/">
-		<meta name="twitter:card" content="summary_large_image">
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:description" content="The NLM2021 is the 6th of a series of annual workshops focusing on nonlinear analysis and differential problems. This edition's common thread will cover theoretical topics on reaction-diffusion equations and dynamical systems with possible applications to biology or physics."/>
+    <meta property="og:author" content="Organizers' NLM2021 and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <meta property="og:title" content="Nonlinear Meeting 2021" />
+	<meta property="og:image" content="https://tender-boyd-3a0e69.netlify.app/images/short.png" />
+	<meta property="og:url" content="https://tender-boyd-3a0e69.netlify.app/">
+	<meta name="twitter:title" content="Nonlinear Meeting 2021" />
+	<meta name="twitter:image" content="https://tender-boyd-3a0e69.netlify.app/images/short.png" />
+	<meta name="twitter:url" content="https://tender-boyd-3a0e69.netlify.app/">
+	<meta name="twitter:card" content="summary_large_image">
+	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+		
+	<script language="JavaScript">var clockID;
+		var yourTimeZoneFrom = +1.00; //time zone value where you are at
 
-		<!-- Header -->
-			<header id="header">
-				<nav id="nav">
-					<ul>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#one">First<span class="extra"> Day</span></a></li>
-						<li><a href="#two">Second<span class="extra"> Day</span></a></li>
-						<li><a href="#three">Archive</a></li>
-						<li><a href="#contact">Contacts</a></li>
-						<!--<li><a href="#elements">Elements</a></li>-->
-					</ul>
-				</nav>
-			</header>
+		var d = new Date();
+		//get the timezone offset from local time in minutes
+		var tzDifference = yourTimeZoneFrom * 60 + d.getTimezoneOffset();
+		//convert the offset to milliseconds, add to targetTime, and make a new Date
+		var offset = tzDifference * 60 * 1000;
 
-		<!-- Main -->
-			<div id="main">
+			function UpdateClock() {
+  				var tDate = new Date(new Date().getTime() + offset);
+  				var in_hours = tDate.getHours()
+  				var in_minutes = tDate.getMinutes();
+  				var in_seconds = tDate.getSeconds();
 
-				<!-- Reel -->
-					<div class="reel">
+  				if (in_minutes < 10)
+   				 in_minutes = '0' + in_minutes;
+  				if (in_seconds < 10)
+   				 in_seconds = '0' + in_seconds;
+  				if (in_hours < 10)
+    			 in_hours = '0' + in_hours;
 
-						<!-- Intro -->
-							<article id="home" class="slide style1 center">
-								<img src="images/pic01.png" alt="" data-position="30% 50%" />
-								<div class="inner">
-									<header>
-										<h1>NLM21</h1>
-										<h2>Nonlinear meeting on Zoom</br> 
-										22-23 March 2021</h2>
-										<p>The NLM21 is the 6th of a series of annual workshops 
-										focusing on nonlinear analysis and differential problems. 
-										This edition's common thread will cover theoretical topics 
-										on reaction-diffusion equations and dynamical systems with 
-										possible applications to biology or physics.</p>
-									</header>
-									<div class="table-wrapper">
-												<table >
-													<thead><h4>Invited speakers</h4></thead>
-													<tbody>
-														<tr>
-															<td><b>Henri Berestycki</b></br>(EHESS Paris)</td>
-															<td><b>Christian Kuehn</b></br>(Technical University of Munich)</td>
-														</tr>
-														<tr>
-															<td><b>Elaine Crooks</b></br>(Swansea University)</td>
-															<td><b>Pedro Torres</b></br>(University of Granada)</td>
-														</tr>
-														<tr>
-															<td><b>Frank Hilker</b></br>(University of Osnabrück)</td>
-															<td><b>Peter Polacik</b></br>(University of Minnesota)</td>
-														</tr>
-													</tbody>		
-												</table>
-									</div>
-									<p style="margin-top:1.5em;"><strong>Organizers</br> 
-									Guglielmo Feltrin, Paolo Gidoni, 
-									Elisa Sovrano, Andrea Tellini
-									</strong></p>
-								</div>
-							</article>
+				document.getElementById('theTime').innerHTML = "" +
+    			in_hours + ":" +
+    			in_minutes + ":" +
+    			in_seconds;
 
-						<!-- One -->
-							<article id="one" class="slide style2 left">
-								<img src="images/pic02.png" alt="" data-position="30% 50%" />
-								<div class="inner">
-									<h3>22 March 2021, 
-									<u>Zoom link available here at 13:00 (CEST time)</u></h3>
-									<p><h4>14:00-15:00 <b>Speaker Green</b></h4>		
-									<i>Reaction-diffusion equations</i></br>
-									Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Quisque et scelerisque lorem. Duis rutrum felis consectetur 
-									scelerisque efficitur. Mauris vel gravida sem, non tempus nunc.
-									Cras dictum et urna imperdiet ornare. Sed interdum faucibus.</br>
-									<a href="doc/slide1.pdf" download="CV_ES.pdf" target="_blank" class="button icon solid fa-download" >Slides</a>
-									</p>
-									 
-									<p><h4>15:00-16:00 <b>Speaker Red</b></h4>		
-									<i>Reaction-diffusion equations</i></br>
-									Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Quisque et scelerisque lorem. Duis rutrum felis consectetur 
-									scelerisque efficitur. Mauris vel gravida sem, non tempus nunc.
-									Cras dictum et urna imperdiet ornare. Sed interdum faucibus.</p>
-									
-									<p><h4>16:00-16:15 Coffee break</h4></p>
-									
-									<h4>16:15-17:15 <b>Speaker Black</b></h4>
-									<i>Reaction-diffusion equations</i></br>
-									Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Quisque et scelerisque lorem. Duis rutrum felis consectetur 
-									scelerisque efficitur. Mauris vel gravida sem, non tempus nunc.
-									 Cras dictum et urna imperdiet ornare. Sed interdum faucibus.</p>
-								</div>
-							</article>
+				}
 
-						<!-- Two -->
-							<article id="two" class="slide style2 left">
-								<img src="images/pic03.png" alt="" data-position="30% 50%" />
-								<div class="inner">
-									<h3>23 March 2021, 
-									<u>Zoom link available here at 13:00 (CEST time)</u></h3>
-									<p><h4>14:00-15:00 <b>Speaker Green</b></h4>
-									<i>Reaction-diffusion equations</i></br>
-									Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Quisque et scelerisque lorem. Duis rutrum felis consectetur 
-									scelerisque efficitur. Mauris vel gravida sem, non tempus nunc.
-									 Cras dictum et urna imperdiet ornare. Sed interdum faucibus.</p>
-									 
-									<p><h4>15:00-16:00 <b>Speaker Purple</b></h4>
-									<i>Reaction-diffusion equations</i></br>
-									Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Quisque et scelerisque lorem. Duis rutrum felis consectetur 
-									scelerisque efficitur. Mauris vel gravida sem, non tempus nunc.
-									 Cras dictum et urna imperdiet ornare. Sed interdum faucibus.</p>
-									
-									<p><h4>16:00-16:15 Coffee break</h4></p>
-									
-									<h4>16:15-17:15 <b>Speaker Black</b></h4>
-									<i>Reaction-diffusion equations</i></br>
-									Abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Quisque et scelerisque lorem. Duis rutrum felis consectetur 
-									scelerisque efficitur. Mauris vel gravida sem, non tempus nunc.
-									 Cras dictum et urna imperdiet ornare. Sed interdum faucibus.</p>
-								</div>
-							</article>
-							
-						<!-- Three -->
-							<article id="three" class="slide style2 left">
-							<img src="images/pic04.png" alt="" data-position="30% 50%" />
-								<div class="inner">
-								<h3>Poster and past workshops 
-								</h3>
-									<p>On this page you can download and share the poster of this workshop.
-									</p>
-									<h3>
-									<a href="doc/poster.pdf" download="posterNLM21.pdf" target="_blank" class="button icon solid fa-download" >Poster NLM21</a>
-									</h3>
-									<p style="margin-bottom:30em; margin-top:2em;">
-									You can also take a tour in northern Italy with the five past Nonlinear meetings:</br> 
-									<a href="https://sites.google.com/site/nlmt2015/">Turin-2015</a>, <a href="https://sites.google.com/site/nonmil16/">Milan-2016</a>, 
-									<a href="https://sites.google.com/site/2017nlmu/">Udine-2017</a>, <a href="https://sites.google.com/view/nlmt2019">Turin-2019</a>, and 
-									<a href="https://sites.google.com/view/nonlinear-meeting-milan-2020">Milan-2020</a>.
-									</p>	
-								</div>
-							</article>
+			function StartClock() {
+  				clockID = setInterval(UpdateClock, 500);
+			}
+
+			function KillClock() {
+  				clearTimeout(clockID);
+			}
+		window.onload = function() {
+  			StartClock();
+		}  
+		</script>
+		
+    <title>NLM2021</title>
+
+    <link rel="canonical" href="https://tender-boyd-3a0e69.netlify.app/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header class="site-header sticky-top py-1">
+<nav class="container navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>NLM2021</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#program">Program</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#archive">Past editions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#info">Information</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--<nav id="nav" class="container d-flex flex-column flex-md-row justify-content-between"> 
+    <a class="py-2" href="#" aria-label="NLM2021">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>NLM2021</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+    </a>
+    <a class="py-2 d-none d-md-inline-block" href="#home">Home</a>
+    <a class="py-2 d-none d-md-inline-block" href="#program">Program</a>
+    <a class="py-2 d-none d-md-inline-block" href="#archive">Archive</a>
+    <a class="py-2 d-none d-md-inline-block" href="#info">Information</a>
+  </nav> -->
+</header>
+
+<main>
+	<div id="home" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    	<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-9 mx-auto my-5">
+      		<h1 class="display-4 fw-normal">Nonlinear Meeting 2021</h1>
+      		<p class="h3">Zoom, March 22-23</p>
+      		<p class="lead fw-normal">The NLM2021 is the 6th of a series of annual workshops focusing on nonlinear analysis and differential problems. This edition's common thread will cover theoretical topics on reaction-diffusion equations and dynamical systems with possible applications to biology or physics.</p>
+        </div>
+      		
+ 	<div class="col-12 col-sm-9 col-md-9 col-lg-9 mx-auto my-0 bg-light">
+		<h3 class="display-9 text-center">Invited speakers</h3>
+		<table class="table table-sm table-light table-borderless">
+          <tbody>
+          <tr>
+            <td width="100"><b>Henri Berestycki</b></br>EHESS-CAMS-CNRS Paris</td>
+            <td width="100"><b>Elaine Crooks</b></br>Swansea University</td>
+          </tr>
+          <tr>
+            <td width="100"><b>Frank Hilker</b></br>University of Osnabrück</td>
+            <td width="100"><b>Christian Kuehn</b></br>Technical University of Munich</td>
+          </tr>
+          <tr>
+            <td width="100"><b>Pedro Torres</b></br>University of Granada</td>
+            <td width="100"><b>Peter Poláčik</b></br>University of Minnesota</td>
+          </tr>
+     	  </tbody>
+     	 </table>
+	</div>
+	<div class="screenshot-card-2 shadow-sm d-none d-md-block"><img style="height:100%;width:100%" src="images/lot.png", class="mx-auto w-65 lg:w-81"></div>
+	<a class="btn btn-outline-dark" href="images/posterNLM21.pdf" download="posterNLM21.pdf" target="_blank">Poster</a>
+	</div>
 
 
-						<!-- Contact Us -->
-							<article id="contact" class="slide style2 with-content center">
-								<div class="inner">
-								</div>
-							</article>
 
-					</div>
+	<div id="program" class="position-relative overflow-hidden p-3 p-md-6 m-md-3 text-center bg-dark text-white">
+		<h3 class="display-9">Program</h3>
+		<p>Times are displayed in UTC+1 (currently &nbsp;<span id="theTime"></span>). Click <a href="http://www.timebie.com/std/centraleuropean.php" target="_blank" class="link-secondary">here</a> for time conversion.</p>
+	</div>
+  
+  	<div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
+  	
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-4 px-md-5 text-justify text-white overflow-hidden">
+      <div class="my-0 py-0">
+        <h4 class="display-9 text-danger">March 22</h4>
+        <table class="table table-sm table-dark table-borderless">
+          <tbody>
+          <tr>
+            <th scope="row" rowspan="2" width="10%">15:30</br>16:30</th>
+            <td>Henri Berestycki</br><i>"Here the title Here the title Here the title"</i></br></td>
+          </tr>
+          <tr>
+            <td><!--<div class="btn-links"><a class="btn btn-outline-light my-1 btn-sm" href="#" target="_blank" real="noopener">
+  				<i class="fas fa-images mr-1">&nbsp</i>slides</a></div>-->
+            	<button type="button" class="btn btn-outline-light btn-sm" data-toggle="collapse" data-target="#abs1">Abstract</button><p></p>
+  				<div id="abs1" class="collapse"><p style="font-size:small" class="text-left">We deal with the periodic boundary value problem associated with the parameter-dependent second-order nonlinear differential equation \[u''+cu' + \bigr{(} \lambda a^{+}(x) - \mu a^{-}(x) \bigr{)} g(u) = 0,\] where \(\lambda,\mu>0\) are parameters, \(c\in\mathbb{R},\) \(a(x)\) is a locally integrable $P$-periodic sign-changing weight function, and \(g\colon[0,1]\to\mathbb{R}\) is a continuous function such that \(g(0)=g(1)=0,\) \(g(u)>0\) for all \(u\in]0,1[,\) with superlinear growth at zero. A typical example for \(g(u),\) that is of interest in population genetics, is the logistic-type nonlinearity \(g(u)=u^{2}(1-u).\) 
+					Using a topological degree approach, we provide high multiplicity results by exploiting the nodal behaviour of \(a(x).\) 
+					More precisely, when $m$ is the number of intervals of positivity of \(a(x)\) in a \(P\)-periodicity interval, we prove the existence of \(3^{m}-1\) non-constant positive \(P\)-periodic solutions, 
+					whenever the parameters \(\lambda\) and \(\mu\) are positive and large enough.</p>
+				</div>
+  			</td>
+          </tr>
+          <tr>
+            <th scope="row" rowspan="2" width="10%">16:30</br>17:30</th>
+            <td>Elaine Crooks</br><i>"Here the title Here the title Here the title"</i></br></td>
+          </tr>
+          <tr>
+            <td><!--<div class="btn-links"><a class="btn btn-outline-light my-1 btn-sm" href="#" target="_blank" real="noopener">
+  				<i class="fas fa-images mr-1">&nbsp</i>slides</a></div>-->
+            	<button type="button" class="btn btn-outline-light btn-sm" data-toggle="collapse" data-target="#abs2">Abstract</button><p></p>
+  				<div id="abs2" class="collapse"><p style="font-size:small" class="text-left">We deal with the periodic boundary value problem associated with the parameter-dependent second-order nonlinear differential equation \[u''+cu' + \bigr{(} \lambda a^{+}(x) - \mu a^{-}(x) \bigr{)} g(u) = 0,\] where \(\lambda,\mu>0\) are parameters, \(c\in\mathbb{R},\) \(a(x)\) is a locally integrable $P$-periodic sign-changing weight function, and \(g\colon[0,1]\to\mathbb{R}\) is a continuous function such that \(g(0)=g(1)=0,\) \(g(u)>0\) for all \(u\in]0,1[,\) with superlinear growth at zero. A typical example for \(g(u),\) that is of interest in population genetics, is the logistic-type nonlinearity \(g(u)=u^{2}(1-u).\) 
+					Using a topological degree approach, we provide high multiplicity results by exploiting the nodal behaviour of \(a(x).\) 
+					More precisely, when $m$ is the number of intervals of positivity of \(a(x)\) in a \(P\)-periodicity interval, we prove the existence of \(3^{m}-1\) non-constant positive \(P\)-periodic solutions, 
+					whenever the parameters \(\lambda\) and \(\mu\) are positive and large enough.</p>
+  				</div>
+  			</td>
+          </tr>
+          <tr><th colspan="2" class="text-center text-danger">Coffee break</th>
+  		  </tr>
+          <tr>
+            <th scope="row" rowspan="2" width="10%">17:30</br>18:30</th>
+            <td>Christian Kuehn</br><i>"Geometric Singular Perturbation Theory for Fast-Slow PDEs"</i></br></td>
+          </tr>
+          <tr>
+            <td><!--<div class="btn-links"><a class="btn btn-outline-light my-1 btn-sm" href="#" target="_blank" real="noopener">
+  				<i class="fas fa-images mr-1">&nbsp</i>slides</a></div>-->
+            	<button type="button" class="btn btn-outline-light btn-sm" data-toggle="collapse" data-target="#abs3">Abstract</button><p></p>
+  				<div id="abs3" class="collapse"><p style="font-size:small" class="text-left">Systems with multiple time scales appear in a wide variety of
+applications. Yet, their mathematical analysis is challenging already in
+the context of ODEs, where about four decades were needed to develop a
+more comprehensive theory based upon invariant manifolds,
+desingularization, variational equations, and many other techniques.
+Yet, for PDEs progress has been extremely slow due to many obstacles in
+generalizing several ODE methods. In my talk, I shall report on two
+recent advances for fast-slow PDEs, namely the extension of slow
+manifold theory for unbounded operators driving the slow variables, and
+the design of a blow-up method for PDEs, where normal hyperbolicity is
+lost [1-2]. This is joint work with Maximilian Engel and Felix Hummel.
+</br></br>
+[1] "Blow-up analysis of fast-slow PDEs with loss of hyperbolicity", M.
+Engel and C. Kuehn, <a class="link-secondary" href="https://arxiv.org/abs/2007.09973" target="_blank">https://arxiv.org/abs/2007.09973</a>
+</br>
+[2] "Slow manifolds for infinite-dimensional evolution equations", F.
+Hummel and C. Kuehn, <a class="link-secondary" href="https://arxiv.org/abs/2008.10700" target="_blank">https://arxiv.org/abs/2008.10700</a></p>
+  				</div>
+  			</td>
+          </tr>
+          <tr>                 
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-4 px-md-5 text-justify text-white overflow-hidden">
+      <div class="my-0 py-0">
+        <h4 class="display-9 text-primary">March 23</h4>
+        <table class="table table-sm table-dark table-borderless">
+          <tbody>
+          <tr>
+            <th scope="row" rowspan="2" width="10%">15:30</br>16:30</th>
+            <td>Pedro Torres</br><i>"Here the title Here the title Here the title"</i></br></td>
+          </tr>
+          <tr>
+            <td><!--<div class="btn-links"><a class="btn btn-outline-light my-1 btn-sm" href="#" target="_blank" real="noopener">
+  				<i class="fas fa-images mr-1">&nbsp</i>slides</a></div>-->
+            	<button type="button" class="btn btn-outline-light btn-sm" data-toggle="collapse" data-target="#abs4">Abstract</button><p></p>
+  				<div id="abs4" class="collapse"><p style="font-size:small" class="text-left">We deal with the periodic boundary value problem associated with the parameter-dependent second-order nonlinear differential equation \[u''+cu' + \bigr{(} \lambda a^{+}(x) - \mu a^{-}(x) \bigr{)} g(u) = 0,\] where \(\lambda,\mu>0\) are parameters, \(c\in\mathbb{R},\) \(a(x)\) is a locally integrable $P$-periodic sign-changing weight function, and \(g\colon[0,1]\to\mathbb{R}\) is a continuous function such that \(g(0)=g(1)=0,\) \(g(u)>0\) for all \(u\in]0,1[,\) with superlinear growth at zero. A typical example for \(g(u),\) that is of interest in population genetics, is the logistic-type nonlinearity \(g(u)=u^{2}(1-u).\) 
+					Using a topological degree approach, we provide high multiplicity results by exploiting the nodal behaviour of \(a(x).\) 
+					More precisely, when $m$ is the number of intervals of positivity of \(a(x)\) in a \(P\)-periodicity interval, we prove the existence of \(3^{m}-1\) non-constant positive \(P\)-periodic solutions, 
+					whenever the parameters \(\lambda\) and \(\mu\) are positive and large enough.</p>
+				</div>
+  			</td>
+          </tr>
+          <tr>
+            <th scope="row" rowspan="2" width="10%">16:30</br>17:30</th>
+            <td>Frank Hilker</br><i>"Here the title Here the title Here the title"</i></br></td>
+          </tr>
+          <tr>
+            <td><!--<div class="btn-links"><a class="btn btn-outline-light my-1 btn-sm" href="#" target="_blank" real="noopener">
+  				<i class="fas fa-images mr-1">&nbsp</i>slides</a></div>-->
+            	<button type="button" class="btn btn-outline-light btn-sm" data-toggle="collapse" data-target="#abs5">Abstract</button><p></p>
+  				<div id="abs5" class="collapse"><p style="font-size:small" class="text-left">We deal with the periodic boundary value problem associated with the parameter-dependent second-order nonlinear differential equation \[u''+cu' + \bigr{(} \lambda a^{+}(x) - \mu a^{-}(x) \bigr{)} g(u) = 0,\] where \(\lambda,\mu>0\) are parameters, \(c\in\mathbb{R},\) \(a(x)\) is a locally integrable $P$-periodic sign-changing weight function, and \(g\colon[0,1]\to\mathbb{R}\) is a continuous function such that \(g(0)=g(1)=0,\) \(g(u)>0\) for all \(u\in]0,1[,\) with superlinear growth at zero. A typical example for \(g(u),\) that is of interest in population genetics, is the logistic-type nonlinearity \(g(u)=u^{2}(1-u).\) 
+					Using a topological degree approach, we provide high multiplicity results by exploiting the nodal behaviour of \(a(x).\) 
+					More precisely, when $m$ is the number of intervals of positivity of \(a(x)\) in a \(P\)-periodicity interval, we prove the existence of \(3^{m}-1\) non-constant positive \(P\)-periodic solutions, 
+					whenever the parameters \(\lambda\) and \(\mu\) are positive and large enough.</p>
+  				</div>
+  			</td>
+          </tr>
+          <tr><th colspan="2" class="text-center text-primary">Coffee break</th>
+  		  </tr>
+          <tr>
+            <th scope="row" rowspan="2" width="10%">17:30</br>18:30</th>
+            <td>Peter Poláčik</br><i>"Here the title Here the title Here the title Here the long title"</i></br></td>
+          </tr>
+          <tr>
+            <td><!--<div class="btn-links"><a class="btn btn-outline-light my-1 btn-sm" href="#" target="_blank" real="noopener">
+  				<i class="fas fa-images mr-1">&nbsp</i>slides</a></div>-->
+            	<button type="button" class="btn btn-outline-light btn-sm" data-toggle="collapse" data-target="#abs6">Abstract</button><p></p>
+  				<div id="abs6" class="collapse"><p style="font-size:small" class="text-left">We deal with the periodic boundary value problem associated with the parameter-dependent second-order nonlinear differential equation \[u''+cu' + \bigr{(} \lambda a^{+}(x) - \mu a^{-}(x) \bigr{)} g(u) = 0,\] where \(\lambda,\mu>0\) are parameters, \(c\in\mathbb{R},\) \(a(x)\) is a locally integrable $P$-periodic sign-changing weight function, and \(g\colon[0,1]\to\mathbb{R}\) is a continuous function such that \(g(0)=g(1)=0,\) \(g(u)>0\) for all \(u\in]0,1[,\) with superlinear growth at zero. A typical example for \(g(u),\) that is of interest in population genetics, is the logistic-type nonlinearity \(g(u)=u^{2}(1-u).\) 
+					Using a topological degree approach, we provide high multiplicity results by exploiting the nodal behaviour of \(a(x).\) </p>
+  				</div>
+  			</td>
+          </tr>
+          <tr>                 
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+  </div>
 
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+  <div id="archive" class="position-relative text-center d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">   
+    <div class="bg-light me-md-3 pt-3 px-3 pt-md-4 px-md-5 text-center overflow-hidden">
+      <div class="my-0 py-0">
+        <h3 class="display-9">Past editions</h3>
+        <p>The workshop continues the series of NLMs, which started in Turin (2015).</p>
+        <p>Visit the websites of the past editions:</br> 
+        <a href="https://sites.google.com/site/nlmt2015/" target="_blank">Turin-2015</a>, <a href="https://sites.google.com/site/nonmil16/" target="_blank">Milan-2016</a>, 
+        				<a href="https://sites.google.com/site/2017nlmu/" target="_blank">Udine-2017</a>, <a href="https://sites.google.com/view/nlmt2019" target="_blank">Turin-2019</a>,  
+						<a href="https://sites.google.com/view/nonlinear-meeting-milan-2020" target="_blank">Milan-2020</a>.</p>
+        <!--<h3><a href="doc/poster.pdf" download="posterNLM21.pdf" target="_blank" class="button icon solid fa-download" >Poster NLM21</a></h3>
+									<p style="margin-bottom:30em; margin-top:2em;">-->
+      </div>
+    </div>
+    
+    <div id="info" class="bg-light me-md-3 pt-3 px-3 pt-md-4 px-md-5 text-center overflow-hidden">
+      <div class="my-0 p-0">
+        <h3 class="display-9">Information</h3>
+        <p>The registration for the NLM2021 is open! Anyone interested in attending the workshop is welcome to join.</br><b>Registration is required to receive the details of the meeting.</b></p>
+      	<p>For more information, please contact xxx</p>
+      	<a class="btn btn-danger" style="font-size:small" href="images/posterNLM21.pdf" target="_blank">REGISTER HERE</a>
+      	<p></p>
+      </div>
+    </div>
+  </div>
 
-	</body>
+</main>
+
+<footer class="container position-relative overflow-hidden py-2 text-center">
+  <div class="column">
+ 	<h5>Organizers</h5>
+ 	<p>
+        <a class="link-secondary" href="https://users.dimi.uniud.it/~guglielmo.feltrin/" target="_blank">Guglielmo&nbsp;Feltrin</a>&nbsp;<span style="font-size: 100%">|</span>
+        <a class="link-secondary" href="http://www.paologidoni.com/" target="_blank">Paolo&nbsp;Gidoni</a>&nbsp;<span style="font-size: 100%">|</span>
+        <a class="link-secondary" href="https://www.elisasovrano.it/" target="_blank">Elisa&nbsp;Sovrano</a>&nbsp;<span style="font-size: 100%">|</span>
+		<a class="link-secondary" href="http://andreatellini.weebly.com/" target="_blank">Andrea&nbsp;Tellini</a>
+		</p>
+		<p>
+		<a style="border-bottom: none" href="https://deg1.uniud.it/index.html" target="_blank" > <img src="images/udine.jpg" alt="" style="width:auto; height:60px; position: relative; top: 0px;" /></a>&nbsp;
+      	<a style="border-bottom: none" href="https://www.avcr.cz/en/" target="_blank" > <img src="images/cz1.png" alt="" style="width:auto; height:60px; position: relative; top: 0px;" /></a>&nbsp;
+      	<a style="border-bottom: none" href="https://www.utia.cas.cz/" target="_blank" > <img src="images/cz2.gif" alt="" style="width:auto; height:60px; position: relative; top: 0px;" /></a>&nbsp;
+      	<a style="border-bottom: none" href="https://www.ehess.fr/en" target="_blank" > <img src="images/paris1.png" alt="" style="width:auto; height:60px; position: relative; top: 0px;" /></a>&nbsp;
+      	<a style="border-bottom: none" href="http://cams.ehess.fr/" target="_blank" > <img src="images/paris2.png" alt="" style="width:auto; height:60px; position: relative; top: 0px;" /></a>&nbsp;
+      	<a style="border-bottom: none" href="https://www.upm.es/" target="_blank" > <img src="images/madrid.jpg" alt="" style="width:auto; height:60px; position: relative; top: 0px;" /></a>&nbsp;
+      	<a style="border-bottom: none" href="https://deg1.uniud.it/index.html" target="_blank" > <img src="images/deg1.png" alt="" style="width:auto; height:60px; position: relative; top: 0px;" /></a>
+  </p>
+  
+<!--    <div class="col-12 col-md-12 col-sm-4">
+    </div>
+    <div class="col-5 col-md-6 col-sm-1">
+      <h5>Organizers</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="https://users.dimi.uniud.it/~guglielmo.feltrin/" target="_blank">Guglielmo Feltrin</a></li>
+        <li><a class="link-secondary" href="http://www.paologidoni.com/" target="_blank">Paolo Gidoni</a></li>
+        <li><a class="link-secondary" href="https://www.elisasovrano.it/" target="_blank">Elisa Sovrano</a></li>
+        <li><a class="link-secondary" href="http://andreatellini.weebly.com/" target="_blank">Andrea Tellini</a></li>
+      </ul>
+    </div>
+    <div class="col-5 col-md-6 col-sm-3">
+      <h5>Sponsors</h5>
+      <a style="border-bottom: none" href="https://deg1.uniud.it/index.html" target="_blank" > <img src="images/institucional.png" alt="" style="width:90px; height:90px; position: relative; top: 0px;" /></a>
+      <a style="border-bottom: none" href="https://deg1.uniud.it/index.html" target="_blank" > <img src="images/institucional.png" alt="" style="width:90px; height:90px; position: relative; top: 0px;" /></a>
+      <a style="border-bottom: none" href="https://deg1.uniud.it/index.html" target="_blank" > <img src="images/institucional.png" alt="" style="width:90px; height:90px; position: relative; top: 0px;" /></a>
+      <a style="border-bottom: none" href="https://deg1.uniud.it/index.html" target="_blank" > <img src="images/institucional.png" alt="" style="width:90px; height:90px; position: relative; top: 0px;" /></a>
+      <a style="border-bottom: none" href="https://deg1.uniud.it/index.html" target="_blank" > <img src="images/institucional.png" alt="" style="width:90px; height:90px; position: relative; top: 0px;" /></a>
+    </div>-->
+  </div> 
+        <small class="d-block mb-3 text-muted text-center">Website powered by <a href="https://getbootstrap.com/" target="_blank" class="link-secondary">Bootstrap</a></small>
+</footer>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
 </html>
+
+
+

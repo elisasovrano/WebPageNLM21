@@ -47,12 +47,40 @@
 }
 
 .product-device-2 {
-  top: -25%;
+  top: -15%;
   right: auto;
   bottom: 0;
-  left: 5%;
+  left: -5%;
   background-color: #e5e5e5;
 }
+
+
+.screenshot-card {
+  position: absolute;
+  top: -15%;
+  right: auto;
+  bottom: 0;
+  left: -5%;
+  width: 1000px;
+  height: 540px;
+  background-color: #e5e5e5;
+  border-radius: 0px;
+  opacity: 0.1;
+  transform: rotate(30deg);
+ }
+ 
+ .screenshot-card-2 {
+  position: absolute;
+  left: 0%;
+  top: -25%;
+  bottom: 0%;
+  width: 400px;
+  height: 800px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+  opacity: 0.2;
+ }
 
 
 /*

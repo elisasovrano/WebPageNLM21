@@ -81,6 +81,18 @@
   opacity: 0.3;
  }
  
+   .screenshot-card-3 {
+  position: absolute;
+  right: -13%;
+  bottom: -40%;
+  width: 450px;
+  height: 700px;
+  background-color: #ffffff;
+  border-radius: 0px;
+  transform: rotate(33deg);
+  opacity: 0.3;
+ }
+ 
  
 
 
